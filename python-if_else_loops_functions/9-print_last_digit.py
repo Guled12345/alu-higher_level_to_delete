@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# 10-add.py 
-def add(a, b):
-    """Return the addition of a and b."""
-    return (a +b)
+def print_last_digit(number):
+    print(abs(number) % 10, end="")
+    return (abs(number) % 10)
