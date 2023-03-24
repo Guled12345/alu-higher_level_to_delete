@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-""" A class to list items """
+""""List inheritance"""
 
 
 class MyList(list):
-    """ A class to list items """
+    """Class MyList inherits list."""
 
     def print_sorted(self):
-        """ A function that prints sorted list items"""
+        """Prints sorted lists."""
         temp_list = self[:]
         temp_list.sort()
         print("{}".format(temp_list))
