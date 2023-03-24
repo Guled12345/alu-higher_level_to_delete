@@ -1,6 +1,11 @@
 #!/usr/bin/python3
-''' Checking if the object belongs to a class'''
+"""Checks object class"""
+
 
 def is_same_class(obj, a_class):
-    ''' Checking if the object belongs to a class'''
+    """Checks object class
+    Args:
+        - obj: object to class
+        - a_class: class to check
+    """
     return type(obj) is a_class
